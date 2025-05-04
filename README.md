@@ -1,23 +1,30 @@
-# Marketing-Campaign-Statistics-Project:
+Marketing Campaign Statistics Project
+As part of my statistics course, I worked on a full data analysis pipeline. Below is a summary of the key steps I took to complete the project:
 
-As part of my statistics course, I worked on a full data analysis pipeline. Here's what I accomplished:
+Steps Involved:
+1. Data Import:
+Loaded data directly from MySQL using mysql.connector.
 
-* Data Import: Loaded data directly from MySQL using mysql.connector.
+2. Data Preprocessing:
+Outlier Treatment: Applied the IQR method while considering business context.
 
-*Data Preprocessing:
-Treated outliers using the IQR method with business context in mind.
-Replaced missing values based on customer segmentation.
+Missing Values: Replaced missing values based on customer segmentation to maintain data integrity.
 
-*Customer Segmentation: Identified key customer groups to target marketing campaigns effectively.
+3. Customer Segmentation:
+Identified key customer groups to effectively target marketing campaigns.
 
-*A/B Testing:
-Performed A/B testing with:
-Significance level (α) = 0.05
-Power = 0.8
-Effect size = 0.4
+4. A/B Testing:
+Performed A/B testing with the following parameters:
 
-*Inferential Statistics in Python:
-Wrote code to conduct hypothesis testing and interpret the results.
-When the p-value < α, I rejected the null hypothesis – providing data-driven support for the campaign.
+Significance Level (α): 0.05
 
-🔍 This project gave me hands-on experience in applying statistics to real-world problems.
+Power: 0.8
+
+Effect Size: 0.4
+
+5. Inferential Statistics in Python:
+Wrote custom code to perform hypothesis testing and interpret the results.
+
+When the p-value < α, I rejected the null hypothesis, providing data-driven support for the marketing campaign.
+
+🔍 This project provided me with hands-on experience in applying statistical methods to real-world business problems, enhancing my skills in data analysis, hypothesis testing, and customer segmentation.
